@@ -19,7 +19,7 @@ def num_list():
     return [1,2,3,4,5]
 
 
-@pytest.mark.skip('Example of skipping a test')
+#@pytest.mark.skip('Example of skipping a test')
 def test_more(num_list):
     assert mean(num_list) == 3.0
 

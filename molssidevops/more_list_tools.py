@@ -17,7 +17,7 @@ def split(in_list, index):
     
     Examples
     ----------
-    >>> split(['a', 'b', 'c', 'd'], 3]
+    >>> split(['a', 'b', 'c', 'd'], 3)
     (['a', 'b', 'c'], ['d'])
     """
 
